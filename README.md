@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/icon.png" alt="Open in cmux" width="128" height="128" />
+<img src="https://raw.githubusercontent.com/AgentLayer1/vscode-cmux-open/main/assets/icon.png" alt="Open in cmux" width="128" height="128" />
 
 # Open in cmux
 

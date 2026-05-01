@@ -6,10 +6,10 @@
 
 **Right-click any folder in VS Code — open it as a [cmux](https://agentlayer.one) workspace.**
 
-[![Marketplace](https://vsmarketplacebadges.dev/version-short/agentlayer.cmux-open-workspace.svg?style=flat-square&color=8B5CF6&label=marketplace)](https://marketplace.visualstudio.com/items?itemName=agentlayer.cmux-open-workspace)
-[![Installs](https://vsmarketplacebadges.dev/installs-short/agentlayer.cmux-open-workspace.svg?style=flat-square&color=22D3EE&label=installs)](https://marketplace.visualstudio.com/items?itemName=agentlayer.cmux-open-workspace)
-[![Platform](https://img.shields.io/badge/platform-macOS-10B981?style=flat-square&logo=apple&logoColor=white)](#requirements)
-[![License](https://img.shields.io/badge/license-MIT-0B0B0F?style=flat-square)](./LICENSE)
+[![Marketplace](https://badgen.net/vs-marketplace/v/agentlayer.cmux-open-workspace?label=marketplace&color=8B5CF6)](https://marketplace.visualstudio.com/items?itemName=agentlayer.cmux-open-workspace)
+[![Platform](https://img.shields.io/badge/platform-macOS-22D3EE?style=flat-square&logo=apple&logoColor=white)](#requirements)
+[![License](https://img.shields.io/badge/license-MIT-10B981?style=flat-square)](./LICENSE)
+[![AgentLayer](https://img.shields.io/badge/by-AgentLayer-0B0B0F?style=flat-square)](https://agentlayer.one)
 
 </div>
 

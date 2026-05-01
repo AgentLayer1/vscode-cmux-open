@@ -1,0 +1,83 @@
+{
+  "name": "cmux-open-workspace",
+  "displayName": "Open in cmux",
+  "description": "Open any folder as a cmux workspace from the VS Code Explorer context menu (macOS only).",
+  "version": "0.1.0",
+  "publisher": "agentlayer",
+  "license": "MIT",
+  "author": {
+    "name": "AgentLayer",
+    "url": "https://agentlayer.one"
+  },
+  "homepage": "https://agentlayer.one",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgentLayer/vscode-cmux-open.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgentLayer/vscode-cmux-open/issues"
+  },
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#0B0B0F",
+    "theme": "dark"
+  },
+  "keywords": [
+    "cmux",
+    "agentlayer",
+    "workspace",
+    "agent",
+    "macos",
+    "ai"
+  ],
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true,
+      "description": "Only opens the folder you explicitly right-click; no project code is executed."
+    },
+    "virtualWorkspaces": {
+      "supported": false,
+      "description": "Requires a local macOS Service; cannot run against virtual file systems."
+    }
+  },
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cmux.openWorkspace",
+        "title": "Open in cmux Workspace",
+        "category": "cmux"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "cmux.openWorkspace",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation@32"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -w -p ./",
+    "vscode:prepublish": "pnpm run compile",
+    "package": "pnpm dlx @vscode/vsce package --no-dependencies --out releases/",
+    "clean": "rm -rf node_modules dist"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/vscode": "^1.98.0",
+    "typescript": "^5.7.2"
+  }
+}

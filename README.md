@@ -4,7 +4,7 @@
 
 # Open in cmux
 
-**Right-click any folder in VS Code — open it as a [cmux](https://agentlayer.one) workspace.**
+**Right-click any folder in VS Code — open it as a [cmux](https://cmux.com) workspace.**
 
 [![Marketplace](https://badgen.net/vs-marketplace/v/agentlayer.cmux-open-workspace?label=marketplace&color=8B5CF6)](https://marketplace.visualstudio.com/items?itemName=agentlayer.cmux-open-workspace)
 [![Platform](https://img.shields.io/badge/platform-macOS-22D3EE?style=flat-square&logo=apple&logoColor=white)](#requirements)
@@ -17,7 +17,7 @@
 
 ## What it does
 
-A one-click bridge from the VS Code Explorer into the [cmux](https://agentlayer.one) desktop app. No shell helpers, no symlinks, no env vars — the extension hands the folder path to cmux through the macOS Service the app already registers.
+A one-click bridge from the VS Code Explorer into the [cmux](https://cmux.com) desktop app. No shell helpers, no symlinks, no env vars — the extension hands the folder path to cmux through the macOS Service the app already registers.
 
 <div align="center">
 
@@ -67,6 +67,6 @@ Run the command from the Command Palette (`⌘⇧P` → "Open in cmux Workspace"
 
 ## About
 
-Built by **[AgentLayer](https://agentlayer.one)**. cmux is AgentLayer's terminal-native agent workspace.
+This VS Code extension is built and maintained by **[AgentLayer](https://agentlayer.one)**, we ship AI agent infrastructure and use [cmux](https://cmux.com) heavily in our day-to-day for parallel, agent-driven development.
 
 <sub>Released under the [MIT License](./LICENSE) · See the [changelog](./CHANGELOG.md) for release notes.</sub>

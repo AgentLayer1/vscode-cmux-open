@@ -2,7 +2,7 @@
   "name": "cmux-open-workspace",
   "displayName": "Open in cmux",
   "description": "Open any folder as a cmux workspace from the VS Code Explorer context menu (macOS only).",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "agentlayer",
   "license": "MIT",
   "author": {

@@ -20,6 +20,8 @@
 A one-click bridge from the VS Code Explorer into the [cmux](https://cmux.com) desktop app. No shell helpers, no symlinks, no env vars — the extension hands the folder path to cmux through the macOS Service the app already registers.
 
 <div align="center">
+  
+<img src="https://raw.githubusercontent.com/AgentLayer1/vscode-cmux-open/main/assets/screenshot.png" alt="Open in cmux" width="400" />
 
 | Step | Action                                              |
 | ---- | --------------------------------------------------- |
